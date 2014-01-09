@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Patrick D'Errico's Page</title>
+			<style>
+				.center {
+					color:#FFFFFF;
+					font-size:48px;
+				}
+				.bod {
+					background-color:#000000;
+					background-image:url('side.png');
+					background-repeat:repeat-y;
+				}
+				.top {
+					margin-left:350px;
+				}
+				.h1 {
+					font-family: sans-serif;
+					color:#00FF00;
+					font-size:36px;					
+				}
+				.left {
+					position:absolute;
+					left:250px;
+					top:170px;
+				}
+				.right {
+					position:absolute;
+					left:725px;
+					top:170px;
+				}
+				.right-2 {
+					position:absolute;
+					left:725px;
+					top:362px;
+				}				
+				.p1 {
+					color:#FFFFFF;
+					font-size:18px;
+					max-width:375px;					
+				}
+				.p2 {
+					color:#FFFFFF;
+					font-size:18px;
+					max-width:175px;					
+				}
+				.i1 {
+					position:absolute;
+					left:910px;
+					top:385px;				
+				}
+				.leftr2 {
+					position:absolute;
+					left:250px;
+					top:600px;
+				}
+				.p3 {
+					color:#FFFFFF;
+					font-size:18px;
+					max-width:775px;					
+				}				
+				.leftr3 {
+					position:absolute;
+					left:250px;
+					top:1020px;
+				}
+			</style>
+	</head>
+	<body class="bod">
+		<div id="top" class="top">
+			<img src="top.png">
+		</div>
+		<div id="t1" class="left">
+			<h2 class="h1">About Me</h2>
+			<p class="p1">I am a current senior studying computer science at the College of New Jersey.
+			 At TCNJ, I have developed an interest in developing applications and doing research on areas of computing that have the potential to
+			 have a visible impact on society. The projects that I have worked with cover a variety of different contexts of computing; I am most interested in vehicular networking and accessible development.</p>				 
+			<p class="p1">Programming proficiencies: Java, C++, Python, Android.<br>Other language familiarities: Lua, Oracle, Matlab.</p>
+		</div>
+		<div id="t2" class="right">
+			<h2 class="h1">TCNJ BookNav</h2>
+			<p class="p1">An ongoing research project I am leading at TCNJ to develop an indoor navigation system for the campus library.
+			 I have taken advantage of the access to WiFi and accelerometer data that the Android platform allows to develop a fingerprinting </p>
+		</div>	
+		<div id="t3" class="right-2">
+			<p class="p2">system that is easy to implement and has an average error of initial placement of 9.5 feet, which is competitive among current indoor navigation
+			 systems.<br>Information about this project is availible here: <a href="https://github.com/derricp1/navispace">https://github.com/derricp1/navispace</a></p>		
+		</div>
+		<div id="i1" class="i1">
+			<img src="logo.png">
+		</div>
+		<div id="t4" class="leftr2">
+			<h2 class="h1">Other Highlights</h2>
+			<p class="p3">Vehicular networking simulation: Developed at Oakland University's Uncore REU program, is used to evaluate privacy metrics of networked vehicles. Work for this project was published in 'Endpoint Protection Zone (EPZ): Protecting LBS User Location Privacy Against Deanonymization and Collusion in Vehicular Networks,'in which
+			 I am a coauthor. This paper was presented at the 2013 International Conference on Connected Vehicles & Expo. <a href="https://github.com/derricp1/parrots-and-things">https://github.com/derricp1/parrots-and-things</a></p>
+			<p class="p3">Backgammon AI: Originally developed for the Artifical Intelligence course at TCNJ. Uses minimax in tandem with probablisitic functions to pick a best move. <a href="https://github.com/derricp1/backgammon-final">https://github.com/derricp1/backgammon-final</a></p>
+			<p class="p3">Lions BookBaazar: Concieved as a project for the Software Engineering Course at TCNJ as an offline client to facilitate book trading among students.
+			 Will be brought online over the coming semester with TCNJ's Women in Computer Science group via a NCWIT-Symantec Student Seed Fund award from the National Center for Women in Information and Technology. The last semester was spent laying down framework and teaching the members of the club requisite skills.
+			 <br>Offline version: <a href="https://github.com/derricp1/lionsbookbazaar">https://github.com/derricp1/lionsbookbazaar</a></p>
+		</div>
+		<div id="t4" class="leftr3">
+			<h2 class="h1">Contact</h2>
+			<table>
+				<td>
+					<a href="http://www.linkedin.com/pub/patrick-d-errico/86/373/7a1"><img src="linkedin.png" style="border:0;" alt="linkedin" width="100" height="100"></a>
+				</td>
+				<td>
+					<a href="https://github.com/derricp1"><img src="github.png" style="border:0;" alt="github" width="100" height="100"></a>
+				</td>
+				<td>
+					<a href="mailto:derricp1@tcnj.edu"><img src="gmail.png" style="border:0;" alt="gmail" width="100" height="100"></a>
+				</td>
+			</table>
+		</div>
+	</body>
+</html>
